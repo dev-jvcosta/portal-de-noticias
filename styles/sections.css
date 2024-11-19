@@ -24,6 +24,6 @@
 }
 
 #featured .card figcaption h2 {
-    font: var(--h1-font); /* Use a variável corrigida */
     margin-top: 8px;
 }
+

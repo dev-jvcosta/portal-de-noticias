@@ -19,15 +19,15 @@
 
   /* utilitários de textos */
   .text-2xl{
-    font: var(--h1);
+    font: var(--h1-font);
   }
 
   .text-xl{
-    font: var(--h2);
+    font: var(--h2-font);
   }
 
   .text-lg{
-    font: var(--h3);
+    font: var(--h3-font);
   }
 
   .text-sm{
