@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* --------- CORES --------- */
+  /* Produto */
+  --brand-color-light: #60A5FA;
+  --brand-color-dark: #1D4ED8;
+
+  /* Base */
+  --bg-color: #0F172A;
+  --stroke-color: #1E293B;
+
+  /* Textos */
+  --text-color-primary: #F1F5F9;
+  --text-color-secondary: #CBD5E1;
+
+  /* Tipografia */
+  --font-family: "Archivo", serif;
+
+  /* Estilos de tipografia */
+  --h1-font: 880 24px/1.35 var(--font-family);
+  --h2-font: 800 16px/1.4 var(--font-family);
+  --h3-font: 800 14px/1.4 var(--font-family);
+  --text-span-font: 400 16px/1.45 var(--font-family);
+  --text-sm-font: 400 14px/1.6 var(--font-family);
+}
+
+body {
+  color: var(--text-color-primary);
+  background-color: var(--bg-color);
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color-light);
+}
+
+h1, h2, h3 {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
+main {
+  margin-top: 40px;
+}
+
+.content-tag {
+  display: inline-block;
+  background-color: var(--brand-color-dark);
+  border-radius: 4px;
+  font: 500 10px/1.2 var(--font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-color-primary);
+  box-shadow: 8px 4px 6px rgba(2, 6, 23, 0.25);
+}
