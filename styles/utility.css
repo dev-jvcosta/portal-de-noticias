@@ -17,6 +17,10 @@
     gap: 16px;
   }
 
+  .gap-32{
+    gap: 32px;
+  }
+
   /* utilitários de textos */
   .text-2xl{
     font: var(--h1-font);
@@ -34,4 +38,9 @@
     font: var(--text-sm);
   }
 
- 
+ .ellipsis{
+  display: -webkit-box; 
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical; 
+ }
